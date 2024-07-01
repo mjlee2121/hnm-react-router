@@ -7,10 +7,11 @@ import ProductDetail from './page/ProductDetail';
 function App() {
   return (
     <div className="App">
+      <h1> Landing page </h1>
       <Routes>
-        <Route page='/' element={<ProductAll />}></Route>
-        <Route page='/login' element={<Login />}></Route>
-        <Route page='/product/:id' element={<ProductDetail />}></Route>
+        <Route page='/' element={<ProductAll />} />
+        <Route page='/login' element={<Login /> } />
+        <Route page='/product/:id' element={<ProductDetail />} />
       </Routes>
     </div>
   );
