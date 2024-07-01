@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <h1> Landing page </h1>
       <Routes>
-        <Route page='/' element={<ProductAll />} />
-        <Route page='/login' element={<Login /> } />
-        <Route page='/product/:id' element={<ProductDetail />} />
+        <Route path='/product' element={<ProductAll />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/product/:id' element={<ProductDetail />} />
       </Routes>
     </div>
   );

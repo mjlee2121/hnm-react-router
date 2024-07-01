@@ -1,12 +1,13 @@
 import React from 'react'
 
-const ProductAll = () => {
-    console.log('product all')
-  return (
-    <div>
-        <h1>All product page</h1>
-    </div>
-  )
-}
 
-export default ProductAll
+const ProductAll = () => {
+    return (
+      <div>
+          <h1>Show All Products</h1>
+  
+      </div>
+    )
+  }
+  
+  export default ProductAll
